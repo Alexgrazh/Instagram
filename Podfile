@@ -7,6 +7,14 @@ target 'Instagram' do
 
   # Pods for Instagram
 
+pod 'FirebaseAuth'
+pod 'FirebaseAnalytics'
+pod 'FirebaseFirestore'
+pod 'FirebaseMessaging'
+pod 'FirebaseDatabase'
+pod 'FirebaseRemoteConfig'
+pod 'FirebaseStorage'
+
   target 'InstagramTests' do
     inherit! :search_paths
     # Pods for testing
